@@ -1,0 +1,22 @@
+[project]
+name = "powerguard"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.134.0",
+    "httpx>=0.28.1",
+    "langchain>=1.2.10",
+    "langchain-groq>=1.1.2",
+    "langgraph>=1.0.10",
+    "mediapipe>=0.10.32",
+    "numpy>=2.4.2",
+    "opencv-python>=4.13.0.92",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "python-multipart>=0.0.22",
+    "qdrant-client>=1.17.0",
+    "structlog>=25.5.0",
+    "uvicorn[standard]>=0.41.0",
+]
